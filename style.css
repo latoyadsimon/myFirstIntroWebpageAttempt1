@@ -1,0 +1,87 @@
+/*last lesson 5.9 noted to always add the following code to the top of css page for every project, for border-box sizing*/
+*{
+  box-sizing: border-box;
+}
+
+/* I saw this portion while practicing in replit, not going to delete it for now*/
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color:#dfabbc;
+}
+/* i can group this piece above to the above rule.
+html{
+  background-color:#dfabbc;
+}*/
+
+/*next I need to style the elements.*/
+h1 {
+  font-size: 48px;
+  font-family: balboa;
+  height: 10px;
+  
+  /*font-family: 'Architects Daughter', cursive;*/
+}
+h2 {
+  font-family: cursive;
+  font-size: 30px; 
+  
+}
+h3{
+  font-family:cursive;
+  font-size: 25px;
+  padding: 10px;
+}
+p{ 
+  font-family:'Times New Roman';
+  font-size: 15px;
+}
+
+
+/*lets use the class practice drill to align the text, make backgrounds, and wrappers. I'll need to assign these to the header, main and footer*/
+.text-centered{
+  text-align: center;
+}
+.wrapper{
+  width: 400px;
+  margin: auto;
+}
+.border{
+  border: 10px double #000;
+  height: 219px;
+  width:219px;
+}
+.dark-background{
+  background-color: #250c10;
+  color: #dfabbc;
+  padding-top: 4px;  
+}
+
+.light-background{
+  background-color: #dec4cd;
+  color: #250c10;
+}
+/*Add the pseudo-clases, these change the color of the links*/
+
+a:link {color:blue;}
+a:visited {color:#c97efb;}
+a:hover {color:#86f3ec;}
+a:active {color:#ecf297;}
+
+
+
+/*things I need to style
+h1 
+h2 
+h3 
+h5
+p*/
+
+/* can I make a border around the areas?*/
+
+
+
+/*requirements for the project: xbackground, xcolor, xfont-family, xfont-size,
+xheight, xmargin, xpadding, xtext-align*/
+
+/* Styled links using pseudo-classes*/
